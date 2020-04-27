@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: GmodStore Moderative Help
-    url: https://github.community/
+    url: https://www.gmodstore.com/help/tickets/create/site
     about: Please create a ticket here if you need help with the GmodStore platform
   - name: GmodStore Community Help
-    url: https://bounty.github.com/
+    url: https://www.gmodstore.com/community
     about: For any other questions 
