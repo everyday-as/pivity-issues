@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a GmodStore bug report
 title: ''
-labels: bug
+labels: "\U0001F41E Bug"
 assignees: ''
 
 ---

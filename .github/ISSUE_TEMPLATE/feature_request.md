@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest a feature to GmodStore
 title: ''
-labels: feature
+labels: "\U0001F31F Feature"
 assignees: ''
 
 ---
