@@ -1,0 +1,79 @@
+name: Bug Report
+description: Create a GmodStore bug report
+title: ""
+labels: ["\U0001F41E Bug"]
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What behavior did you expect?
+      placeholder: ex. The marketplace button brings me to the marketplace
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What behavior actually happened?
+      placeholder: "ex. The marketplace button doesn't do anything"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: "How do you trigger this bug? Please walk us through it step by step."
+      value: |
+        1.
+        2.
+        3.
+      render: markdown
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Brave
+        - OperaFX
+        - Chrome Mobile
+        - Firefox Mobile
+        - Other
+      validations:
+        required: false
+  - type: input
+    id: example-url
+    attributes:
+      label: Example URL
+      description: "An example location on GmodStore where this bug takes place"
+      placeholder: "ex. https://www.gmodstore.com/market/browse"
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: GmodStore Version
+      description: "What is the GmodStore version you're encountering this issue on (see footer)?"
+      placeholder: "ex. V9.1.13"
+    validations:
+      required: false
+  - type: input
+    id: event-id
+    attributes:
+      label: Event ID
+      description: "If this bug resulted in an error being shown on the website, what was the Event ID provided?"
+      placeholder: "ex. 39e6ea819a3046a99fe8503ada3c18ae"
+    validations:
+      required: false
