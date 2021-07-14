@@ -34,6 +34,8 @@ body:
         2.
         3.
       render: markdown
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
@@ -49,8 +51,8 @@ body:
         - Chrome Mobile
         - Firefox Mobile
         - Other
-      validations:
-        required: false
+    validations:
+      required: false
   - type: input
     id: example-url
     attributes:
