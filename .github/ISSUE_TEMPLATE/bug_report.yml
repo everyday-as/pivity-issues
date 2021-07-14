@@ -54,6 +54,14 @@ body:
     validations:
       required: false
   - type: input
+    id: browsers
+    attributes:
+      label: Browsers
+      description: What browsers are you seeing the problem on?
+      placeholder: "ex. Chome 91 and Firefox 90"
+    validations:
+      required: false
+  - type: input
     id: example-url
     attributes:
       label: Example URL
