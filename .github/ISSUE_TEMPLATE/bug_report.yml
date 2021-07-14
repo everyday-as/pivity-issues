@@ -1,8 +1,8 @@
 name: Bug Report
 description: Create a GmodStore bug report
-title: ""
+title: "Bug Report"
 labels: ["\U0001F41E Bug"]
-assignees: ""
+assignees: []
 body:
   - type: markdown
     attributes:
