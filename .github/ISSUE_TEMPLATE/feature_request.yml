@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a feature to GmodStore
+title: "Feature request"
+labels: ["\U0001F31F Feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature 
+      description: Describe a feature you would like to have added to GmodStore
+      placeholder: ex. I would like all the buttons to be pink instead of blue
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Any additional information you have can be added here
+      placeholder: "ex. the sun was very bright when I encountered the bug"
+    validations:
+      required: false
