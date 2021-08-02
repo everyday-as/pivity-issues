@@ -20,6 +20,6 @@ body:
     attributes:
       label: Additional Information
       description: Any additional information you have can be added here
-      placeholder: "ex. The sun was very bright when I discovered that I wanted the feature."
+      placeholder: "ex. The Sun was very bright when I discovered that I wanted the feature."
     validations:
       required: false
