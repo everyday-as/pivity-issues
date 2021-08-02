@@ -20,7 +20,7 @@ body:
     attributes:
       label: Actual Behavior
       description: What behavior actually happened?
-      placeholder: "ex. The marketplace button doesn't do anything"
+      placeholder: "ex. The marketplace button doesn't do anything."
     validations:
       required: true
   - type: textarea
@@ -72,6 +72,6 @@ body:
     attributes:
       label: Additional Information
       description: Any additional information you have can be added here
-      placeholder: "ex. the sun was very bright when I encountered the bug"
+      placeholder: "ex. The Sun was very bright when I encountered the bug."
     validations:
       required: false
