@@ -1,8 +1,8 @@
-## GModStore Issue Tracker
+## Pivity Issue Tracker
 
 This is the public issue tracker for reporting bugs, issues and suggestions related to the **website**. Please fill in the appropriate template to make sure your feature or bug report is properly understood.
 
-If you need to report on anything that's not about the website, please [use the forums](https://gmodstore.com/community) or a [site ticket](https://gmodstore.com/help).
+If you need to report on anything that's not about the website, please [use the forums](https://www.gmodstore.com/community) or a [site ticket](https://www.gmodstore.com/help).
 
 ### Reporting Bugs
 
