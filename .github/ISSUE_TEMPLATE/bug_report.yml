@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a GmodStore bug report
+description: Create a Pivity bug report
 labels: ["\U0001F41E Bug"]
 assignees: []
 body:
@@ -47,15 +47,15 @@ body:
     id: example-url
     attributes:
       label: Example URL
-      description: "An example location on GmodStore where this bug takes place"
+      description: "An example location on a Pivity marketplace where this bug takes place"
       placeholder: "ex. https://www.gmodstore.com/market/browse"
     validations:
       required: false
   - type: input
     id: version
     attributes:
-      label: GmodStore Version
-      description: "What is the GmodStore version you're encountering this issue on (see footer)?"
+      label: Pivity Marketplace Version
+      description: "What is the Pivity version you're encountering this issue on (see footer)?"
       placeholder: "ex. V9.1.13"
     validations:
       required: false
